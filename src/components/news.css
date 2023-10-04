@@ -1,0 +1,61 @@
+.news--change-background {
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 2rem;
+}
+
+.author-name{
+    line-height: 3rem;
+    padding-bottom: 0;
+}
+
+.side-bar {
+    flex: 1;
+}
+
+.danh-muc {
+
+}
+
+.danh-muc__header {
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 0.3rem;
+}
+
+.danh-muc__item {
+    
+}
+
+.danh-muc__item-name {
+    margin-left: 1rem;
+}
+
+.danh-muc__heading {
+    color: #565656;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}   
+
+.danh-muc__checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+
+}
+
+.danh-muc__hr {
+    width: 80%;
+}
+
+.danh-muc__more {
+    background-color: unset;
+    outline: none;
+    margin-left: 1.5rem;
+    color: #565656;
+
+}

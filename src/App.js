@@ -7,7 +7,7 @@ import Home from './components/home.js';
 import Footer from './components/footer.js';
 import News from './components/news.js';
 import About from './components/about.js';
-
+import Shop from './components/shop.js';
 function App() {
   return (
     <div className ="App">
@@ -16,7 +16,7 @@ function App() {
             <Routes>
 
               <Route path="/" element={<Home />}></Route>
-              <Route path="/Shop" ></Route>
+              <Route path="/Shop" element={<Shop/>}></Route>
               <Route path="/abc" ></Route>
               <Route path="/News" element={<News />}></Route>
               <Route path="/About_Us" element={<About />}></Route>

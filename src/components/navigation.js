@@ -21,16 +21,16 @@ export default function Navigation() {
                       <Link className="nav-link" to="/">Trang chủ</Link>
                    </li>
                    <li className="nav-item">
-                      <Link className="nav-link" to="/Shop">Shop</Link>
+                      <Link className="nav-link" to="/Shop">Cửa hàng của tôi</Link>
                    </li>
                    <li className="nav-item">
                       <Link className="nav-link" to="vagetables.html">Vagetables</Link>
                    </li>
                    <li className="nav-item">
-                      <Link className="nav-link" to="/News">Tin</Link>
+                      <Link className="nav-link" to="/News">Mua Bán</Link>
                    </li>
                    <li className="nav-item">
-                      <Link className="nav-link" to="/About_Us">About Us</Link>
+                      <Link className="nav-link" to="/About_Us">Về chúng tôi</Link>
                    </li>
 
                 </ul>

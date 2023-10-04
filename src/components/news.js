@@ -1,26 +1,46 @@
 import React from 'react';
-import './news.css';
+import { Link } from 'react-router-dom';
 function News(props) {
     return (
         <>
 
 
-             <div className="container-fluid justify-content-center">
+             <div className="container-fluid px-0">
             <div classNameName='text-center'>
-            <div className="input-group rounded pt-4 col-9 ms-3">
+            <div className="input-group rounded pt-4 col-10 ms-3">
                 <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
                 <span className="input-group-text border-0 bg-success" id="search-addon">
                     <i className="fa fa-search"></i>
                 </span>
             </div>
             </div>
+
+            <nav className="navbar navbar-expand-lg navbar-light container-fluid d-flex py-3 mt-4 mx-0 bg-secondary text-light">
+             <div className='text-bold'>
+                Sắp xếp theo
+             </div>
+             <div className="collapse navbar-collapse d-flex">
+                <ul className="navbar-nav ml-auto">
+                   <li className="nav-item mx-2">
+                      <button className='btn btn-outline-warning'>Gần đây</button>
+                   </li>
+                   <li className="nav-item mx-2">
+                   <button className='btn btn-outline-warning'>Nổi bật</button>
+                   </li>
+                   <li className="nav-item mx-2">
+                   <button className='btn btn-outline-warning'>Giá <i class="fa fa-arrow-down"></i></button>
+                   </li>
+
+                </ul>
+             </div>
+       </nav>
            
         <div className="row my-5">
 
          <div className=" col-8 ms-3">
             <div className="blog_section layout_padding margin_bottom60 py-3 news--change-background">
                <div className="container">
-                  <div className="row">
+                  <div className="row ">
                      <div className="col-sm-12">
                         <div className='d-flex'>
                             <img src='assets/images/de.jpg' className="overflow-hidden rounded-circle col-1" /> 

@@ -13,7 +13,7 @@ function Home(props) {
        
       <div className="container-fluid">
          <div className="layout_border">
-            <div className="banner_section layout_padding">
+            <div className="banner_section layout_padding mb-5">
                <div className="container-fluid rounded-sm">
                   <div id="main_slider" className="carousel slide" data-ride="carousel">
                      <div className="carousel-inner">
@@ -78,129 +78,8 @@ function Home(props) {
                   </div>
                </div>
             </div>
-            <div className="about_section layout_padding">
-               <div className="container">
-                  <div className="row">
-                     <div className="col-md-12">
-                        <h1 className="about_taital">About Us</h1>
-                        <p className="about_text">Passages of Lorem Ipsum available, but the majority have suffered alteration </p>
-                     </div>
-                  </div>
-                  <div className="about_section_2">
-                  </div>
-                  <div className="row">
-                     <div className="col-md-6">
-                        <div className="about_img"><img src="assets/images/about-img.png" /></div>
-                     </div>
-                     <div className="col-md-6">
-                        <div className="fresh_taital">Fresh any</div>
-                        <p className="ipsum_text">Variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedvariations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
-                        <div className="read_bt"><Link href="#">Read More</Link></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div className="vagetables_section layout_padding">
-               <div className="container">
-                  <div className="row">
-                     <div className="col-sm-12">
-                        <h1 className="vagetables_taital">Our Vagetables</h1>
-                        <p className="vagetables_text">Passages of Lorem Ipsum available, but the majority have suffered alteration </p>
-                     </div>
-                  </div>
-                  <div className="courses_section_2">
-                     <div className="row">
-                        <div className="col-md-4">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/img-1.png" /></figure>
-                           </div>
-                           <h3 className="harshal_text">Harshal</h3>
-                           <h3 className="rate_text">$19</h3>
-                           <div className="read_bt_1"><Link href="#">Read More</Link></div>
-                        </div>
-                        <div className="col-md-4">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/img-2.png" /></figure>
-                           </div>
-                           <h3 className="harshal_text">Foodism</h3>
-                           <h3 className="rate_text">$19</h3>
-                           <div className="read_bt_1"><Link href="#">Read More</Link></div>
-                        </div>
-                        <div className="col-md-4">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/img-3.png" alt="ảnh"/></figure>
-                           </div>
-                           <h3 className="harshal_text">Seven</h3>
-                           <h3 className="rate_text">$19</h3>
-                           <div className="read_bt_1"><Link href="#">Read More</Link></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="vagetables_section_2">
-                     <div className="row">
-                        <div className="col-md-4">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/img-4.png" alt="ảnh"/></figure>
-                           </div>
-                           <h3 className="harshal_text">Cyrus</h3>
-                           <h3 className="rate_text">$19</h3>
-                           <div className="read_bt_1"><Link href="#">Read More</Link></div>
-                        </div>
-                        <div className="col-md-4">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/img-5.png" alt="ảnh"/></figure>
-                           </div>
-                           <h3 className="harshal_text">Elianna</h3>
-                           <h3 className="rate_text">$19</h3>
-                           <div className="read_bt_1"><Link href="#">Read More</Link></div>
-                        </div>
-                        <div className="col-md-4">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/img-6.png" alt="ảnh"/></figure>
-                           </div>
-                           <h3 className="harshal_text">Friedman</h3>
-                           <h3 className="rate_text">$19</h3>
-                           <div className="read_bt_1"><Link href="#">Read More</Link></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div className="contact_section layout_padding">
-               <div className="container">
-                  <div className="row">
-                     <div className="col-sm-12">
-                        <h1 className="contact_taital">Get In Touch</h1>
-                     </div>
-                  </div>
-               </div>
-               <div className="container">
-                  <div className="contact_section_2">
-                     <div className="row">
-                        <div className="col-md-6">
-                           <div className="mail_section_1">
-                              <input type="text" className="mail_text" placeholder="Name" name="Name" />
-                              <input type="text" className="mail_text" placeholder="Phone Number" name="Phone Number" /> 
-                              <input type="text" className="mail_text" placeholder="Email" name="Email" />
-                              <textarea className="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage" ></textarea>
-                              <div className="send_bt"><Link href="#">SEND</Link></div>
-                           </div>
-                        </div>
-                        <div className="col-md-6">
-                           <div className="map_main">
-                              <div className="map-responsive">
-                                 <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="340" frameborder="0" style={{mystyle}} allowfullscreen=""></iframe>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div className="testimonial_section layout_padding">
+           
+            <div className="testimonial_section layout_padding mt-5">
                <div className="container">
                   <div className="row">
                      <div className="col-md-12">

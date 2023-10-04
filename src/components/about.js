@@ -10,13 +10,13 @@ function About(props) {
         <>
         <div class="container-fluid text-center">
         <div class="layout_border">
-           <div class="about_section layout_padding margin_bottom90 pt-2">
-              <div class="container">
+           <div class="about_section layout_padding margin_bottom90 pt-5">
+              <div class="container ">
         <h1 class="u-custom-font u-font-oswald u-text u-text-1">Our Creative Team</h1>
         <p class="u-text u-text-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
 
         
-        <div className="row">
+        <div className="row justify-content-around mb-4">
                         <div className="col-md-3">
                            <div className="hover01 column">
                               <figure><img src="assets/images/de.jpg" /></figure>
@@ -24,9 +24,9 @@ function About(props) {
                            <h3 className="harshal_text">Thành viên 3</h3>
                             <h4>Leader</h4>
                             <div clasName="d-flex justify-content-around">
-                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                                <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                                <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                               </div>
                 
                         </div>
@@ -37,9 +37,9 @@ function About(props) {
                            <h3 className="harshal_text">Thành viên 2</h3>
                            <h4>Leader</h4>
                            <div clasName="d-flex justify-content-between">
-                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                            </div>
                         </div>
                         <div className="col-md-3">
@@ -49,30 +49,60 @@ function About(props) {
                            <h3 className="harshal_text">Thành viên 4</h3>
                            <h4>Leader</h4>
                            <div clasName="d-flex justify-content-around">
-                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                           </div>
-                        
-                
-                        </div>
-                        <div className="col-md-3">
-                           <div className="hover01 column">
-                              <figure><img src="assets/images/11.jpg" alt="ảnh"/></figure>
-                           </div>
-                           <h3 className="harshal_text">Thành viên 4</h3>
-                           <h4>Leader</h4>
-                           <div clasName="d-flex justify-content-around">
-                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                            </div>
                         
                 
                         </div>
 
 
+               </div>
+            
+               <div className="row justify-content-around">
+                  <div className="col-md-3">
+                     <div className="hover01 column">
+                        <figure><img src="assets/images/de.jpg" /></figure>
                      </div>
+                     <h3 className="harshal_text">Thành viên 3</h3>
+                      <h4>Leader</h4>
+                      <div clasName="d-flex justify-content-around">
+                          <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                          <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                          <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                        </div>
+          
+                  </div>
+                  <div className="col-md-3">
+                     <div className="hover01 column">
+                        <figure><img src="assets/images/OTSOUE0g.jpg" /></figure>
+                     </div>
+                     <h3 className="harshal_text">Thành viên 2</h3>
+                     <h4>Leader</h4>
+                     <div clasName="d-flex justify-content-between">
+                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                     </div>
+                  </div>
+                  <div className="col-md-3">
+                     <div className="hover01 column">
+                        <figure><img src="assets/images/11.jpg" alt="ảnh"/></figure>
+                     </div>
+                     <h3 className="harshal_text">Thành viên 4</h3>
+                     <h4>Leader</h4>
+                     <div clasName="d-flex justify-content-around">
+                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                     </div>
+                  
+          
+                  </div>
+
+
+               </div>   
 
               </div>
            </div>

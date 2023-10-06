@@ -217,6 +217,9 @@ button {
     background-color: #00a651;
     height: auto;
     background-size: 100%;
+    z-index: 1;
+    top: 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3)
 }
 
 .header_bg {
@@ -1059,10 +1062,7 @@ p.dummy_text {
 
 .side-bar {
     flex: 1;
-}
-
-.danh-muc {
-
+    right: 0;
 }
 
 .danh-muc__header {
@@ -1072,11 +1072,6 @@ p.dummy_text {
     text-transform: uppercase;
     padding-bottom: 0.3rem;
 }
-
-.danh-muc__item {
-    
-}
-
 .danh-muc__item-name {
     margin-left: 1rem;
 }
@@ -1093,10 +1088,6 @@ p.dummy_text {
     align-items: center;
 }
 
-.checkbox {
-
-}
-
 .danh-muc__hr {
     width: 80%;
 }
@@ -1107,4 +1098,12 @@ p.dummy_text {
     margin-left: 1.5rem;
     color: #565656;
 
+}
+
+.sortbar {
+    border-radius: 0.5rem;
+}
+
+.content_block {
+    margin-top: 5rem;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Home(props) {
@@ -7,7 +7,9 @@ function Home(props) {
         width: "100%"
     }
     
-    
+   //  useEffect(()=> {
+
+   //  })
     return (
         <>
        
@@ -21,11 +23,12 @@ function Home(props) {
                            <div className="row">
                               <div className="col-sm-6">
                                  <div className="banner_taital_main">
-                                    <h1 className="banner_taital">Fresh Vagetable Shop</h1>
-                                    <p className="banner_text">Many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                    <h1 className="banner_taital">Trung tâm giải cứu nông sản <span className='text-success'>Rubby</span></h1>
+                                    <p className="banner_text">Trang web này là một nền tảng đặc biệt dành riêng cho người nông dân, 
+                                    cho phép họ dễ dàng đăng thông tin về sản phẩm nông sản dư thừa của mình và tìm người thu mua. </p>
                                     <div className="btn_main">
-                                       <div className="started_text"><Link href="#">Buy Now</Link></div>
-                                       <div className="started_text active"><Link href="#">Contact Us</Link></div>
+                                       <div className="started_text"><Link href="#">Tham gia</Link></div>
+                                       <div className="started_text active"><Link href="#">Xem đơn hàng</Link></div>
                                     </div>
                                  </div>
                               </div>
@@ -38,11 +41,12 @@ function Home(props) {
                            <div className="row">
                               <div className="col-sm-6">
                                  <div className="banner_taital_main">
-                                    <h1 className="banner_taital">Fresh Vagetable Shop</h1>
-                                    <p className="banner_text">Many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                    <h1 className="banner_taital">Trung tâm giải cứu nông sản <span className='text-success'>Rubby</span></h1>
+                                    <p className="banner_text">Trang web này là một nền tảng đặc biệt dành riêng cho người nông dân, 
+                                    cho phép họ dễ dàng đăng thông tin về sản phẩm nông sản dư thừa của mình và tìm người thu mua.</p>
                                     <div className="btn_main">
-                                       <div className="started_text"><Link href="#">Buy Now</Link></div>
-                                       <div className="started_text active"><Link href="#">Contact Us</Link></div>
+                                       <div className="started_text"><Link href="#">Tham gia</Link></div>
+                                       <div className="started_text active"><Link href="#">Xem đơn hàng</Link></div>
                                     </div>
                                  </div>
                               </div>
@@ -55,11 +59,12 @@ function Home(props) {
                            <div className="row">
                               <div className="col-sm-6">
                                  <div className="banner_taital_main">
-                                    <h1 className="banner_taital">Fresh Vagetable Shop</h1>
-                                    <p className="banner_text">Many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                                    <h1 className="banner_taital">Trung tâm giải cứu nông sản <span className='text-success'>Rubby</span></h1>
+                                    <p className="banner_text">Trang web này là một nền tảng đặc biệt dành riêng cho người nông dân, 
+                                    cho phép họ dễ dàng đăng thông tin về sản phẩm nông sản dư thừa của mình và tìm người thu mua.d</p>
                                     <div className="btn_main">
-                                       <div className="started_text"><Link href="#">Buy Now</Link></div>
-                                       <div className="started_text active"><Link href="#">Contact Us</Link></div>
+                                       <div className="started_text"><Link href="#">Tham gia</Link></div>
+                                       <div className="started_text active"><Link href="#">Xem đơn hàng</Link></div>
                                     </div>
                                  </div>
                               </div>
@@ -83,7 +88,7 @@ function Home(props) {
                <div className="container">
                   <div className="row">
                      <div className="col-md-12">
-                        <h1 className="testimonial_taital">Testimonial</h1>
+                        <h1 className="testimonial_taital">Bình luận</h1>
                      </div>
                   </div>
                   <div className="testimonial_section_2">

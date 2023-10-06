@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 function About(props) {
     const mystyle = {
         border:"0",
@@ -24,9 +23,9 @@ function About(props) {
                            <h3 className="harshal_text">Thành viên 3</h3>
                             <h4>Leader</h4>
                             <div clasName="d-flex justify-content-around">
-                                <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
-                                <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
-                                <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                                <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                                <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                                <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                               </div>
                 
                         </div>
@@ -37,9 +36,9 @@ function About(props) {
                            <h3 className="harshal_text">Thành viên 2</h3>
                            <h4>Leader</h4>
                            <div clasName="d-flex justify-content-between">
-                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
-                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
-                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                            </div>
                         </div>
                         <div className="col-md-3">
@@ -49,9 +48,9 @@ function About(props) {
                            <h3 className="harshal_text">Thành viên 4</h3>
                            <h4>Leader</h4>
                            <div clasName="d-flex justify-content-around">
-                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
-                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
-                              <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                              <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                            </div>
                         
                 
@@ -68,9 +67,9 @@ function About(props) {
                      <h3 className="harshal_text">Thành viên 3</h3>
                       <h4>Leader</h4>
                       <div clasName="d-flex justify-content-around">
-                          <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
-                          <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
-                          <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                          <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                          <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                          <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                         </div>
           
                   </div>
@@ -81,9 +80,9 @@ function About(props) {
                      <h3 className="harshal_text">Thành viên 2</h3>
                      <h4>Leader</h4>
                      <div clasName="d-flex justify-content-between">
-                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
-                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
-                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                      </div>
                   </div>
                   <div className="col-md-3">
@@ -93,9 +92,9 @@ function About(props) {
                      <h3 className="harshal_text">Thành viên 4</h3>
                      <h4>Leader</h4>
                      <div clasName="d-flex justify-content-around">
-                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
-                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
-                        <a href="" className="mx-3"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-facebook" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-linkedin" aria-hidden="true"></i></h3></a>
+                        <a href="" className="mx-2"><h3 className="d-inline"><i class="fa fa-instagram" aria-hidden="true"></i></h3></a>
                      </div>
                   
           
@@ -111,7 +110,7 @@ function About(props) {
                <div class="container">
                   <div class="row">
                      <div class="col-sm-12">
-                        <h1 class="contact_taital text-uppercase">Hòm thư</h1>
+                        <h1 class="contact_taital text-uppercase">Hòm thư góp ý</h1>
                      </div>
                   </div>
                </div>

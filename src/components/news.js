@@ -15,9 +15,14 @@ function News(props) {
             </div>
             </div>
 
-            <nav className="navbar navbar-expand-lg navbar-light container-fluid d-flex py-3 mt-4 mx-0 bg-secondary text-light">
+           
+        <div className="row my-5">
+
+         <div className=" col-8 ms-3 mt-0">
+
+         <nav className="navbar navbar-expand-lg navbar-light container-fluid d-flex py-3 mx-0 bg-secondary text-light mb-5 sortbar">
              <div className='text-bold'>
-                Sắp xếp theo
+                <h1 className='text-light fw-bold pb-0'>Sắp xếp theo</h1>
              </div>
              <div className="collapse navbar-collapse d-flex">
                 <ul className="navbar-nav ml-auto">
@@ -34,10 +39,8 @@ function News(props) {
                 </ul>
              </div>
        </nav>
-           
-        <div className="row my-5">
 
-         <div className=" col-8 ms-3">
+
             <div className="blog_section layout_padding margin_bottom60 py-3 news--change-background">
                <div className="container">
                   <div className="row ">

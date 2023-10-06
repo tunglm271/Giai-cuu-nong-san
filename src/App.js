@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/navigation.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,22 +8,24 @@ import Footer from './components/footer.js';
 import News from './components/news.js';
 import About from './components/about.js';
 import Shop from './components/shop.js';
+import Login from './components/login';
+
+
 function App() {
   return (
-    <div className ="App">
-            <Navigation />
-
-            <Routes>
-
-              <Route path="/" element={<Home />}></Route>
-              <Route path="/Shop" element={<Shop/>}></Route>
-              <Route path="/abc" ></Route>
-              <Route path="/News" element={<News />}></Route>
-              <Route path="/About_Us" element={<About />}></Route>
-            </Routes>
-            <Footer />
-    </div>
-  );
+    <>
+       
+      <Routes>
+            <Route path="/" element={<Navigation />}>
+                <Route path='' element={<Home/>}/>
+                <Route path="shop" element={<Shop/>}/>
+                <Route path="news" element={<News />} />
+                <Route path="about" element={<About />} />
+            </Route>
+            <Route path='login' element={<Login />}></Route>
+      </Routes>
+    </>
+  )
 }
 
 export default App;
